@@ -268,6 +268,7 @@ namespace midspace.adminscripts
             commands.Add(new CommandTest());
             commands.Add(new CommandTime());
             commands.Add(new CommandVersion());
+            commands.Add(new CommandShipClean());
 
             return commands;
         }
